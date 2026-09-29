@@ -1,0 +1,2192 @@
+; FBX 7.4.0 project file generated from photo-based pose reconstruction
+FBXHeaderExtension:  {
+	FBXHeaderVersion: 1003
+	FBXVersion: 7400
+	Creator: "Claude pose reconstruction"
+}
+GlobalSettings:  {
+	Version: 1000
+	Properties70:  {
+		P: "UpAxis", "int", "Integer", "",1
+		P: "UpAxisSign", "int", "Integer", "",1
+		P: "FrontAxis", "int", "Integer", "",2
+		P: "FrontAxisSign", "int", "Integer", "",1
+		P: "CoordAxis", "int", "Integer", "",0
+		P: "CoordAxisSign", "int", "Integer", "",1
+		P: "UnitScaleFactor", "double", "Number", "",100
+		P: "TimeSpanStart", "KTime", "Time", "",0
+		P: "TimeSpanStop", "KTime", "Time", "",138558474000
+		P: "CustomFrameRate", "double", "Number", "",30
+	}
+}
+Definitions:  {
+	Version: 100
+	Count: 146
+	ObjectType: "Model" {
+		Count: 24
+	}
+	ObjectType: "NodeAttribute" {
+		Count: 24
+	}
+	ObjectType: "AnimationStack" {
+		Count: 1
+	}
+	ObjectType: "AnimationLayer" {
+		Count: 1
+	}
+	ObjectType: "AnimationCurveNode" {
+		Count: 24
+	}
+	ObjectType: "AnimationCurve" {
+		Count: 72
+	}
+}
+Objects:  {
+	Model: 1000010, "Model::Hips", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0.000000,0.000000,0.000000
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000020, "NodeAttribute::Hips", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000070, "Model::Spine", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,12.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",17.820813,2.329153,-14.775617
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000080, "NodeAttribute::Spine", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000130, "Model::Chest", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,14.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",3.954826,-0.079092,2.290477
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000140, "NodeAttribute::Chest", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000190, "Model::Neck", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,10.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-3.700281,0.112522,3.482345
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000200, "NodeAttribute::Neck", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000250, "Model::Head", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,10.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",18.156230,1.760424,-10.984734
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000260, "NodeAttribute::Head", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000310, "Model::HeadTop_End", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,14.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-24.230594,0.412116,1.919676
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000320, "NodeAttribute::HeadTop_End", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000370, "Model::RightShoulder", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-9.000000,12.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-13.522883,-1.542691,60.782648
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000380, "NodeAttribute::RightShoulder", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000430, "Model::RightArm", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-28.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0.478143,-1.412045,-37.412397
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000440, "NodeAttribute::RightArm", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000490, "Model::RightForeArm", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-26.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0.204040,-18.133332,-1.278576
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000500, "NodeAttribute::RightForeArm", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000550, "Model::RightHand", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-9.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0.087353,1.781673,5.613311
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000560, "NodeAttribute::RightHand", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000610, "Model::RightHand_End", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-6.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0.000000,0.000000,-0.000000
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000620, "NodeAttribute::RightHand_End", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000670, "Model::LeftShoulder", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",9.000000,12.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-12.348873,4.438584,-34.322818
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000680, "NodeAttribute::LeftShoulder", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000730, "Model::LeftArm", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",28.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",8.679892,-39.458997,-23.896587
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000740, "NodeAttribute::LeftArm", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000790, "Model::LeftForeArm", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",26.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0.962619,3.476816,-30.943076
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000800, "NodeAttribute::LeftForeArm", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000850, "Model::LeftHand", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",9.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-0.388545,-4.723497,9.399609
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000860, "NodeAttribute::LeftHand", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000910, "Model::LeftHand_End", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",6.000000,0.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",0.000000,0.000000,0.000000
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000920, "NodeAttribute::LeftHand_End", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1000970, "Model::RightUpLeg", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",-10.000000,-2.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-1.169564,-42.073621,25.660235
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1000980, "NodeAttribute::RightUpLeg", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001030, "Model::RightLeg", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-44.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",1.559750,1.267557,-78.198055
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001040, "NodeAttribute::RightLeg", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001090, "Model::RightFoot", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-40.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",16.550912,0.805717,-5.535381
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001100, "NodeAttribute::RightFoot", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001150, "Model::RightToe_End", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-5.000000,15.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",80.028976,-1.496079,-2.436322
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001160, "NodeAttribute::RightToe_End", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001210, "Model::LeftUpLeg", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",10.000000,-2.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",6.949440,-10.811945,-87.991095
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001220, "NodeAttribute::LeftUpLeg", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001270, "Model::LeftLeg", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-44.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",4.830004,-4.584052,87.003499
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001280, "NodeAttribute::LeftLeg", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001330, "Model::LeftFoot", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-40.000000,0.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",-1.946168,0.110219,6.482202
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001340, "NodeAttribute::LeftFoot", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	Model: 1001390, "Model::LeftToe_End", "LimbNode" {
+		Version: 232
+		Properties70:  {
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.000000,-5.000000,15.000000
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",68.164106,0.735873,0.959589
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1
+			P: "RotationActive", "bool", "", "",1
+			P: "InheritType", "enum", "", "",1
+		}
+		Shading: T
+		Culling: "CullingOff"
+	}
+	NodeAttribute: 1001400, "NodeAttribute::LeftToe_End", "LimbNode" {
+		Properties70:  {
+			P: "Size", "double", "Number", "",10
+		}
+		TypeFlags: "Skeleton"
+	}
+	AnimationStack: 1001450, "AnimStack::ClimbPoseHold", "" {
+		Properties70:  {
+			P: "LocalStop", "KTime", "Time", "",138558474000
+			P: "ReferenceStop", "KTime", "Time", "",138558474000
+		}
+	}
+	AnimationLayer: 1001460, "AnimLayer::BaseLayer", "" {
+	}
+	AnimationCurveNode: 1000060, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0.000000
+			P: "d|Y", "Number", "", "A",0.000000
+			P: "d|Z", "Number", "", "A",0.000000
+		}
+	}
+	AnimationCurve: 1000030, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000040, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000050, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000120, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",17.820813
+			P: "d|Y", "Number", "", "A",2.329153
+			P: "d|Z", "Number", "", "A",-14.775617
+		}
+	}
+	AnimationCurve: 1000090, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 17.820813,17.820813
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000100, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 2.329153,2.329153
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000110, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -14.775617,-14.775617
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000180, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",3.954826
+			P: "d|Y", "Number", "", "A",-0.079092
+			P: "d|Z", "Number", "", "A",2.290477
+		}
+	}
+	AnimationCurve: 1000150, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 3.954826,3.954826
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000160, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -0.079092,-0.079092
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000170, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 2.290477,2.290477
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000240, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-3.700281
+			P: "d|Y", "Number", "", "A",0.112522
+			P: "d|Z", "Number", "", "A",3.482345
+		}
+	}
+	AnimationCurve: 1000210, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -3.700281,-3.700281
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000220, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.112522,0.112522
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000230, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 3.482345,3.482345
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000300, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",18.156230
+			P: "d|Y", "Number", "", "A",1.760424
+			P: "d|Z", "Number", "", "A",-10.984734
+		}
+	}
+	AnimationCurve: 1000270, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 18.156230,18.156230
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000280, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 1.760424,1.760424
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000290, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -10.984734,-10.984734
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000360, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-24.230594
+			P: "d|Y", "Number", "", "A",0.412116
+			P: "d|Z", "Number", "", "A",1.919676
+		}
+	}
+	AnimationCurve: 1000330, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -24.230594,-24.230594
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000340, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.412116,0.412116
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000350, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 1.919676,1.919676
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000420, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-13.522883
+			P: "d|Y", "Number", "", "A",-1.542691
+			P: "d|Z", "Number", "", "A",60.782648
+		}
+	}
+	AnimationCurve: 1000390, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -13.522883,-13.522883
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000400, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.542691,-1.542691
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000410, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 60.782648,60.782648
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000480, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0.478143
+			P: "d|Y", "Number", "", "A",-1.412045
+			P: "d|Z", "Number", "", "A",-37.412397
+		}
+	}
+	AnimationCurve: 1000450, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.478143,0.478143
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000460, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.412045,-1.412045
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000470, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -37.412397,-37.412397
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000540, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0.204040
+			P: "d|Y", "Number", "", "A",-18.133332
+			P: "d|Z", "Number", "", "A",-1.278576
+		}
+	}
+	AnimationCurve: 1000510, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.204040,0.204040
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000520, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -18.133332,-18.133332
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000530, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.278576,-1.278576
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000600, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0.087353
+			P: "d|Y", "Number", "", "A",1.781673
+			P: "d|Z", "Number", "", "A",5.613311
+		}
+	}
+	AnimationCurve: 1000570, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.087353,0.087353
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000580, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 1.781673,1.781673
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000590, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 5.613311,5.613311
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000660, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-0.000000
+			P: "d|Y", "Number", "", "A",0.000000
+			P: "d|Z", "Number", "", "A",-0.000000
+		}
+	}
+	AnimationCurve: 1000630, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -0.000000,-0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000640, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000650, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -0.000000,-0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000720, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-12.348873
+			P: "d|Y", "Number", "", "A",4.438584
+			P: "d|Z", "Number", "", "A",-34.322818
+		}
+	}
+	AnimationCurve: 1000690, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -12.348873,-12.348873
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000700, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 4.438584,4.438584
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000710, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -34.322818,-34.322818
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000780, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",8.679892
+			P: "d|Y", "Number", "", "A",-39.458997
+			P: "d|Z", "Number", "", "A",-23.896587
+		}
+	}
+	AnimationCurve: 1000750, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 8.679892,8.679892
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000760, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -39.458997,-39.458997
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000770, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -23.896587,-23.896587
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000840, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-0.962619
+			P: "d|Y", "Number", "", "A",3.476816
+			P: "d|Z", "Number", "", "A",-30.943076
+		}
+	}
+	AnimationCurve: 1000810, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -0.962619,-0.962619
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000820, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 3.476816,3.476816
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000830, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -30.943076,-30.943076
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000900, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-0.388545
+			P: "d|Y", "Number", "", "A",-4.723497
+			P: "d|Z", "Number", "", "A",9.399609
+		}
+	}
+	AnimationCurve: 1000870, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -0.388545,-0.388545
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000880, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -4.723497,-4.723497
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000890, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 9.399609,9.399609
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1000960, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",0.000000
+			P: "d|Y", "Number", "", "A",0.000000
+			P: "d|Z", "Number", "", "A",0.000000
+		}
+	}
+	AnimationCurve: 1000930, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000940, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1000950, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.000000,0.000000
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001020, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-1.169564
+			P: "d|Y", "Number", "", "A",-42.073621
+			P: "d|Z", "Number", "", "A",25.660235
+		}
+	}
+	AnimationCurve: 1000990, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.169564,-1.169564
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001000, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -42.073621,-42.073621
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001010, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 25.660235,25.660235
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001080, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",1.559750
+			P: "d|Y", "Number", "", "A",1.267557
+			P: "d|Z", "Number", "", "A",-78.198055
+		}
+	}
+	AnimationCurve: 1001050, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 1.559750,1.559750
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001060, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 1.267557,1.267557
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001070, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -78.198055,-78.198055
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001140, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",16.550912
+			P: "d|Y", "Number", "", "A",0.805717
+			P: "d|Z", "Number", "", "A",-5.535381
+		}
+	}
+	AnimationCurve: 1001110, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 16.550912,16.550912
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001120, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.805717,0.805717
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001130, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -5.535381,-5.535381
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001200, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",80.028976
+			P: "d|Y", "Number", "", "A",-1.496079
+			P: "d|Z", "Number", "", "A",-2.436322
+		}
+	}
+	AnimationCurve: 1001170, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 80.028976,80.028976
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001180, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.496079,-1.496079
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001190, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -2.436322,-2.436322
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001260, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",6.949440
+			P: "d|Y", "Number", "", "A",-10.811945
+			P: "d|Z", "Number", "", "A",-87.991095
+		}
+	}
+	AnimationCurve: 1001230, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 6.949440,6.949440
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001240, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -10.811945,-10.811945
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001250, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -87.991095,-87.991095
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001320, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",4.830004
+			P: "d|Y", "Number", "", "A",-4.584052
+			P: "d|Z", "Number", "", "A",87.003499
+		}
+	}
+	AnimationCurve: 1001290, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 4.830004,4.830004
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001300, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -4.584052,-4.584052
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001310, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 87.003499,87.003499
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001380, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",-1.946168
+			P: "d|Y", "Number", "", "A",0.110219
+			P: "d|Z", "Number", "", "A",6.482202
+		}
+	}
+	AnimationCurve: 1001350, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: -1.946168,-1.946168
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001360, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.110219,0.110219
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001370, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 6.482202,6.482202
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurveNode: 1001440, "AnimCurveNode::R", "" {
+		Properties70:  {
+			P: "d|X", "Number", "", "A",68.164106
+			P: "d|Y", "Number", "", "A",0.735873
+			P: "d|Z", "Number", "", "A",0.959589
+		}
+	}
+	AnimationCurve: 1001410, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 68.164106,68.164106
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001420, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.735873,0.735873
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+	AnimationCurve: 1001430, "AnimCurve::", "" {
+		Default: 0
+		KeyVer: 4009
+		KeyTime: *2 {
+			a: 0,138558474000
+		}
+		KeyValueFloat: *2 {
+			a: 0.959589,0.959589
+		}
+		KeyAttrFlags: *1 {
+			a: 24840
+		}
+		KeyAttrDataFloat: *4 {
+			a: 0,0,0,0
+		}
+		KeyAttrRefCount: *1 {
+			a: 2
+		}
+	}
+}
+Connections:  {
+	C: "OO",1000010,0
+	C: "OO",1000020,1000010
+	C: "OO",1000070,1000010
+	C: "OO",1000080,1000070
+	C: "OO",1000130,1000070
+	C: "OO",1000140,1000130
+	C: "OO",1000190,1000130
+	C: "OO",1000200,1000190
+	C: "OO",1000250,1000190
+	C: "OO",1000260,1000250
+	C: "OO",1000310,1000250
+	C: "OO",1000320,1000310
+	C: "OO",1000370,1000130
+	C: "OO",1000380,1000370
+	C: "OO",1000430,1000370
+	C: "OO",1000440,1000430
+	C: "OO",1000490,1000430
+	C: "OO",1000500,1000490
+	C: "OO",1000550,1000490
+	C: "OO",1000560,1000550
+	C: "OO",1000610,1000550
+	C: "OO",1000620,1000610
+	C: "OO",1000670,1000130
+	C: "OO",1000680,1000670
+	C: "OO",1000730,1000670
+	C: "OO",1000740,1000730
+	C: "OO",1000790,1000730
+	C: "OO",1000800,1000790
+	C: "OO",1000850,1000790
+	C: "OO",1000860,1000850
+	C: "OO",1000910,1000850
+	C: "OO",1000920,1000910
+	C: "OO",1000970,1000010
+	C: "OO",1000980,1000970
+	C: "OO",1001030,1000970
+	C: "OO",1001040,1001030
+	C: "OO",1001090,1001030
+	C: "OO",1001100,1001090
+	C: "OO",1001150,1001090
+	C: "OO",1001160,1001150
+	C: "OO",1001210,1000010
+	C: "OO",1001220,1001210
+	C: "OO",1001270,1001210
+	C: "OO",1001280,1001270
+	C: "OO",1001330,1001270
+	C: "OO",1001340,1001330
+	C: "OO",1001390,1001330
+	C: "OO",1001400,1001390
+	C: "OO",1001460,1001450
+	C: "OO",1000060,1001460
+	C: "OP",1000060,1000010,"Lcl Rotation"
+	C: "OP",1000030,1000060,"d|X"
+	C: "OP",1000040,1000060,"d|Y"
+	C: "OP",1000050,1000060,"d|Z"
+	C: "OO",1000120,1001460
+	C: "OP",1000120,1000070,"Lcl Rotation"
+	C: "OP",1000090,1000120,"d|X"
+	C: "OP",1000100,1000120,"d|Y"
+	C: "OP",1000110,1000120,"d|Z"
+	C: "OO",1000180,1001460
+	C: "OP",1000180,1000130,"Lcl Rotation"
+	C: "OP",1000150,1000180,"d|X"
+	C: "OP",1000160,1000180,"d|Y"
+	C: "OP",1000170,1000180,"d|Z"
+	C: "OO",1000240,1001460
+	C: "OP",1000240,1000190,"Lcl Rotation"
+	C: "OP",1000210,1000240,"d|X"
+	C: "OP",1000220,1000240,"d|Y"
+	C: "OP",1000230,1000240,"d|Z"
+	C: "OO",1000300,1001460
+	C: "OP",1000300,1000250,"Lcl Rotation"
+	C: "OP",1000270,1000300,"d|X"
+	C: "OP",1000280,1000300,"d|Y"
+	C: "OP",1000290,1000300,"d|Z"
+	C: "OO",1000360,1001460
+	C: "OP",1000360,1000310,"Lcl Rotation"
+	C: "OP",1000330,1000360,"d|X"
+	C: "OP",1000340,1000360,"d|Y"
+	C: "OP",1000350,1000360,"d|Z"
+	C: "OO",1000420,1001460
+	C: "OP",1000420,1000370,"Lcl Rotation"
+	C: "OP",1000390,1000420,"d|X"
+	C: "OP",1000400,1000420,"d|Y"
+	C: "OP",1000410,1000420,"d|Z"
+	C: "OO",1000480,1001460
+	C: "OP",1000480,1000430,"Lcl Rotation"
+	C: "OP",1000450,1000480,"d|X"
+	C: "OP",1000460,1000480,"d|Y"
+	C: "OP",1000470,1000480,"d|Z"
+	C: "OO",1000540,1001460
+	C: "OP",1000540,1000490,"Lcl Rotation"
+	C: "OP",1000510,1000540,"d|X"
+	C: "OP",1000520,1000540,"d|Y"
+	C: "OP",1000530,1000540,"d|Z"
+	C: "OO",1000600,1001460
+	C: "OP",1000600,1000550,"Lcl Rotation"
+	C: "OP",1000570,1000600,"d|X"
+	C: "OP",1000580,1000600,"d|Y"
+	C: "OP",1000590,1000600,"d|Z"
+	C: "OO",1000660,1001460
+	C: "OP",1000660,1000610,"Lcl Rotation"
+	C: "OP",1000630,1000660,"d|X"
+	C: "OP",1000640,1000660,"d|Y"
+	C: "OP",1000650,1000660,"d|Z"
+	C: "OO",1000720,1001460
+	C: "OP",1000720,1000670,"Lcl Rotation"
+	C: "OP",1000690,1000720,"d|X"
+	C: "OP",1000700,1000720,"d|Y"
+	C: "OP",1000710,1000720,"d|Z"
+	C: "OO",1000780,1001460
+	C: "OP",1000780,1000730,"Lcl Rotation"
+	C: "OP",1000750,1000780,"d|X"
+	C: "OP",1000760,1000780,"d|Y"
+	C: "OP",1000770,1000780,"d|Z"
+	C: "OO",1000840,1001460
+	C: "OP",1000840,1000790,"Lcl Rotation"
+	C: "OP",1000810,1000840,"d|X"
+	C: "OP",1000820,1000840,"d|Y"
+	C: "OP",1000830,1000840,"d|Z"
+	C: "OO",1000900,1001460
+	C: "OP",1000900,1000850,"Lcl Rotation"
+	C: "OP",1000870,1000900,"d|X"
+	C: "OP",1000880,1000900,"d|Y"
+	C: "OP",1000890,1000900,"d|Z"
+	C: "OO",1000960,1001460
+	C: "OP",1000960,1000910,"Lcl Rotation"
+	C: "OP",1000930,1000960,"d|X"
+	C: "OP",1000940,1000960,"d|Y"
+	C: "OP",1000950,1000960,"d|Z"
+	C: "OO",1001020,1001460
+	C: "OP",1001020,1000970,"Lcl Rotation"
+	C: "OP",1000990,1001020,"d|X"
+	C: "OP",1001000,1001020,"d|Y"
+	C: "OP",1001010,1001020,"d|Z"
+	C: "OO",1001080,1001460
+	C: "OP",1001080,1001030,"Lcl Rotation"
+	C: "OP",1001050,1001080,"d|X"
+	C: "OP",1001060,1001080,"d|Y"
+	C: "OP",1001070,1001080,"d|Z"
+	C: "OO",1001140,1001460
+	C: "OP",1001140,1001090,"Lcl Rotation"
+	C: "OP",1001110,1001140,"d|X"
+	C: "OP",1001120,1001140,"d|Y"
+	C: "OP",1001130,1001140,"d|Z"
+	C: "OO",1001200,1001460
+	C: "OP",1001200,1001150,"Lcl Rotation"
+	C: "OP",1001170,1001200,"d|X"
+	C: "OP",1001180,1001200,"d|Y"
+	C: "OP",1001190,1001200,"d|Z"
+	C: "OO",1001260,1001460
+	C: "OP",1001260,1001210,"Lcl Rotation"
+	C: "OP",1001230,1001260,"d|X"
+	C: "OP",1001240,1001260,"d|Y"
+	C: "OP",1001250,1001260,"d|Z"
+	C: "OO",1001320,1001460
+	C: "OP",1001320,1001270,"Lcl Rotation"
+	C: "OP",1001290,1001320,"d|X"
+	C: "OP",1001300,1001320,"d|Y"
+	C: "OP",1001310,1001320,"d|Z"
+	C: "OO",1001380,1001460
+	C: "OP",1001380,1001330,"Lcl Rotation"
+	C: "OP",1001350,1001380,"d|X"
+	C: "OP",1001360,1001380,"d|Y"
+	C: "OP",1001370,1001380,"d|Z"
+	C: "OO",1001440,1001460
+	C: "OP",1001440,1001390,"Lcl Rotation"
+	C: "OP",1001410,1001440,"d|X"
+	C: "OP",1001420,1001440,"d|Y"
+	C: "OP",1001430,1001440,"d|Z"
+}

@@ -1,0 +1,17 @@
+$meta
+  title = ADAPT — Infinite Low-Poly Parkour
+  description = A PS1-styled endless low-poly world: vertex-wobbled polygons, dithering and affine texture warping. Play a hand-built low-poly street runner with wall jump, wall climb, slide, roll, dive and ground slam — ride a skateboard (push, carve, ollie, kickflip, powerslide, bomb) — and take the world apart block by block. Four maps on the K key: an open field, an endless maze, the hills, and a skatepark of ramps, bowls and ledges. The interface takes its colour from whatever is around you.
+  image = https://user.uploads.dev/file/e8154024d3c5bef26903042b813a64bb.png
+  tags = 3d, parkour, low poly, ps1, retro, infinite, endless, game, three.js, webgl
+  header
+    mode = minimal
+
+// ---------------------------------------------------------------------------
+// This generator is a full three.js game. All the code lives in the src/ folder
+// (src/README.md explains the layout). Tuning constants for movement live at
+// the top of src/player.js — the P object — if you want to tweak the feel.
+// ---------------------------------------------------------------------------
+
+
+
+
